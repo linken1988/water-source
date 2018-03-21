@@ -1,0 +1,102 @@
+﻿header {
+    height: 50px;
+    line-height: 50px;
+    background-image:url(/images/diamond.png);
+    background-repeat:no-repeat;
+    position:relative;
+}
+
+header h1 {
+height:50px;
+line-height:50px;
+font-size:20px;
+padding-left:20px;
+}
+
+header div {
+position:absolute;
+top:0;
+right:10px;
+line-height:50px;
+}
+
+nav {
+    height: 28px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color:#4800ff;
+}
+
+nav table {
+width:100%;
+border-collapse:collapse;
+height:28px;
+text-align:center;
+}
+
+nav td:hover {
+background-color:#f60;
+}
+
+nav a {
+color:#fff;
+font-size:12px;
+}
+
+#tree, #container, #sidebar {
+    top: 80px;
+    bottom: 50px;
+    position: absolute;
+    background-color:#e9efff;
+}
+
+#tree {
+    left: 0;
+    width: 200px;
+    overflow-y: auto;
+}
+
+#container {
+    left: 200px;
+    right: 200px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+#sidebar {
+    right: 0;
+    width: 200px;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 49px;
+    border-top: 1px solid #ccc;
+    line-height:49px;
+    text-align:center;
+    background-color:#e9efff;
+}
+
+#logLabel {
+    height:30px;
+    line-height:30px;
+    padding-left:10px;
+    border-bottom:1px solid #ccc;
+}
+
+#logEntry {
+    padding:10px;
+}
+
+#logEntry dd {
+    line-height:1.8;
+}
